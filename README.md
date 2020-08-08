@@ -25,8 +25,8 @@ Launch ACT-R in the common lisp shell, like this:
  
 Run the Python code under INNER folder, like this (you have to write these lines in the Python interpreter shell):
 
-    import inner
-    inner.start_trial()
+    import inner_model
+    inner_model.demo_table()
  
 Now you can see the model working in your ACT-R console.
 
