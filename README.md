@@ -7,8 +7,8 @@ You can try the inner speech model by just running ACT-R, or by integrating it t
 Please, read the file inner_model.lisp for details about the code of the model.
 It contains all the knowledge and the rules implementing the inner speech ability for robot.
 
-1 Running inner speech model in ACT-R (without robot)
------------------------------------------------------
+Running inner speech model in ACT-R (without robot)
+=====================================================
 
 To run ACT-R inner speech model, you need:
    - `ACT-R architecture (standalone version) <http://act-r.psy.cmu.edu/software/>`
@@ -37,11 +37,11 @@ You can hear the inner speech dialogue by installing the SpeechRecognition Pytho
 
 After SpeechRecognition installation, when you run the model you can hear the inner dialogue produced by your machine.
 
-2 Running inner speech model on real robot
-----------------------------------------
+Running inner speech model on real robot
+==========================================
 
 Prerequisites
-=============
+-------------
 
 Operative systems:
 
@@ -55,7 +55,7 @@ For integrating the framework on Pepper robot, just ROS kinetic version is requi
 If you will use a different robot model, please verify the suitable ROS version, and the corresponding Ubuntu version.
 
 1 Prepare the environment
-=========================
+-------------------------
 
 - Install ACT-R architecture and the inner speech model
 
@@ -79,16 +79,7 @@ For Pepper, you can use the pepper_moveit_config package available at
 
 <https://github.com/ros-naoqi/pepper_moveit_config>
 
-Follow all the instructions to play with Pepper and try movements
-
-
-Download ACT-R inner speech model
-===================================
-
-
-You can run the model without robot and you can see the inner dialogue in the prompt of ACT-R, or you can integrate that model on the robot by the steps described at point 3.
-
-3 Compile
+Follow all the instructions to play with Pepper and try movements.
 
 
 
