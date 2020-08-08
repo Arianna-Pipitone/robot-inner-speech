@@ -1,8 +1,45 @@
 # robot-inner-speech
-A framework to provide robots with inner speech skill. It is based on ACT-R architecture, which is integrated to typical robot's routines, as ROS, text to speech, speech to text. 
+A framework to provide robots with inner speech skill. 
+It is based on ACT-R architecture, which is integrated to typical robot's routines, as ROS, text to speech, speech to text. 
 
-Pre-requisite
-=============
+You can try the inner speech model by just running ACT-R, or by integrating it to real robot.
+
+Running just inner speech model in ACT-R
+----------------------------------------
+To run ACT-R inner speech model, you need:
+   - `ACT-R architecture (standalone version) <http://act-r.psy.cmu.edu/software/>`_
+   - `Python 2.x or 3.x`_
+   - `Clozure common Lisp, as required in ACT-R standalone version`_
+
+    Put the ACT-R folder in your preferred location path your-path.
+
+- Download the INNER folder and put it under the actr7.x
+
+Launch ACT-R in the common lisp shell, like this:
+
+.. code-block:: bash
+
+    (load "..your-path.../act-r/actr7.x/load-act-r.lisp")
+ 
+Run the Python code under INNER folder, like this:
+
+.. code-block:: bash
+
+    >>>import demo
+    >>>demo.start_trial()
+
+Now you can see the model working in your ACT-R console.
+
+You can hear the inner speech dialogue by installing the SpeechRecognition Python library at
+
+ <https://pypi.org/project/SpeechRecognition/>
+
+After SpeechRecognition installation, when you run the model you can hear the inner dialogue produced by your machine.
+
+Running inner speech model on real robot
+----------------------------------------
+
+
 Operative systems:
 
 - Ubuntu 16.04 LTS or latest
@@ -18,6 +55,7 @@ If you will use a different robot model, please verify the suitable ROS version,
 =========================
 
 - Install ACT-R architecture
+
 =============================
 
 You have to install the latest version of ACT-R at
@@ -30,6 +68,7 @@ Choose the version according to your operative system.
 You can install ACT-R in Windows if you are using WSL.
 
 - Install MoveIt! (which requires ROS)
+
 ======================================
 
 Follow the instructions available at 
@@ -40,8 +79,10 @@ This is a complete guide which allows you to install the complete framework for 
 Keep attention about ROS version
 
 -  Install the configuration file of your robot
+
 ==============================================
 
+For running Mo
 You can find or built your own robot model by following the instuctions of the previous step in the section "Robot model and Robot state"
 
 For Pepper, you can use the pepper_moveit_config package available at
