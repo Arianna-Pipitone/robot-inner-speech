@@ -2,7 +2,7 @@
 A framework to provide robots with inner speech skill. 
 It is based on ACT-R architecture, which is integrated to typical robot's routines, as ROS, text to speech, speech to text. 
 
-Please, read the file "inner_model.lisp" for details about the code of the model.
+Please, read the files in the INNER folder for details about the code of the model.
 It contains all the knowledge and the rules implementing the inner speech ability for robot in the cooperative scenario to set a table.
 
 You can try the inner speech model by just running ACT-R, or by integrating it to real robot.
@@ -80,8 +80,8 @@ For Pepper, you can use the pepper_moveit_config package available at
 
 Follow all the instructions to play with Pepper and try movements.
 
-
-
+2 Compile the framework middleware
+----------------------------------
 
 
 
