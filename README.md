@@ -88,7 +88,7 @@ Please, refer to the file demo_isc.py to see how implementing new robot movement
 
 Launch the middleware like this:
 
-    rosrun demo_table demo_isc.py
+    rosrun robot-inner-speech demo_isc.py
     
 And see your Pepper robot interacts to you while producing inner speech. 
 A video demonstration is available at
