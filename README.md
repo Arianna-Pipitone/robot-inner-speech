@@ -84,13 +84,14 @@ Follow all the instructions to play with Pepper and try movements.
 ----------------------------------
 The src package doesn't need any compilation so running rospack profile should be enough.
 
-Please, refer to the file demo_isc.py to see how implementing new robot movements and behaviours according to the inner turns.
+Please, refer to the file demo_isc.py into the src folder to see how implementing new robot movements and behaviours according to the inner turns.
 
 Launch the middleware like this:
 
     rosrun robot-inner-speech demo_isc.py
     
-And see your Pepper robot interacts to you while producing inner speech. 
+and see your Pepper robot interacts to you while producing inner speech. 
+
 A video demonstration is available at
 
 
