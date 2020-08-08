@@ -11,23 +11,21 @@ To run ACT-R inner speech model, you need:
    - `Python 2.x or 3.x`
    - `Clozure common Lisp, as required in ACT-R standalone version`
 
-    Put the ACT-R folder in your preferred location path your-path.
+- Put the ACT-R folder in your preferred location path your-path.
 
-- Download the INNER folder and put it under the actr7.x
+- Download the INNER folder and put it under the actr7.x folder of your ACT-R installation.
 
 - Launch ACT-R in the common lisp shell, like this:
-
-code-block:: bash
 
     (load "..your-path.../act-r/actr7.x/load-act-r.lisp")
  
 - Run the Python code under INNER folder, like this:
 
-code-block:: bash
-
     >>>import demo
     >>>demo.start_trial()
-
+ 
+  If the interpreter does not see the demo.py file, please change your global variable PATH or launch Python from the INNER folder.
+ 
 Now you can see the model working in your ACT-R console.
 
 You can hear the inner speech dialogue by installing the SpeechRecognition Python library at
