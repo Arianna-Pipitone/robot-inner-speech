@@ -7,23 +7,23 @@ You can try the inner speech model by just running ACT-R, or by integrating it t
 Running just inner speech model in ACT-R
 ----------------------------------------
 To run ACT-R inner speech model, you need:
-   - `ACT-R architecture (standalone version) <http://act-r.psy.cmu.edu/software/>`_
-   - `Python 2.x or 3.x`_
-   - `Clozure common Lisp, as required in ACT-R standalone version`_
+   - `ACT-R architecture (standalone version) <http://act-r.psy.cmu.edu/software/>`
+   - `Python 2.x or 3.x`
+   - `Clozure common Lisp, as required in ACT-R standalone version`
 
     Put the ACT-R folder in your preferred location path your-path.
 
 - Download the INNER folder and put it under the actr7.x
 
-Launch ACT-R in the common lisp shell, like this:
+- Launch ACT-R in the common lisp shell, like this:
 
-.. code-block:: bash
+code-block:: bash
 
     (load "..your-path.../act-r/actr7.x/load-act-r.lisp")
  
-Run the Python code under INNER folder, like this:
+- Run the Python code under INNER folder, like this:
 
-.. code-block:: bash
+code-block:: bash
 
     >>>import demo
     >>>demo.start_trial()
