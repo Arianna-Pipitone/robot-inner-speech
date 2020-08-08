@@ -4,8 +4,12 @@ It is based on ACT-R architecture, which is integrated to typical robot's routin
 
 You can try the inner speech model by just running ACT-R, or by integrating it to real robot.
 
-Running just inner speech model in ACT-R
-----------------------------------------
+Please, read the file inner_model.lisp for details about the code of the model.
+It contains all the knowledge and the rules implementing the inner speech ability for robot.
+
+1 Running inner speech model in ACT-R (without robot)
+-----------------------------------------------------
+
 To run ACT-R inner speech model, you need:
    - `ACT-R architecture (standalone version) <http://act-r.psy.cmu.edu/software/>`
    - `Python 2.x or 3.x`
@@ -33,9 +37,11 @@ You can hear the inner speech dialogue by installing the SpeechRecognition Pytho
 
 After SpeechRecognition installation, when you run the model you can hear the inner dialogue produced by your machine.
 
-Running inner speech model on real robot
+2 Running inner speech model on real robot
 ----------------------------------------
 
+Prerequisites
+=============
 
 Operative systems:
 
@@ -51,22 +57,12 @@ If you will use a different robot model, please verify the suitable ROS version,
 1 Prepare the environment
 =========================
 
-- Install ACT-R architecture
+- Install ACT-R architecture and the inner speech model
 
-=============================
+Please, follow the instructions of the previous case (running inner speech model (without robot))
 
-You have to install the latest version of ACT-R at
-
-<http://act-r.psy.cmu.edu/software/>
-
-Choose the standalone version of ACT-R
-
-Choose the version according to your operative system.
-You can install ACT-R in Windows if you are using WSL.
 
 - Install MoveIt! (which requires ROS)
-
-======================================
 
 Follow the instructions available at 
 
@@ -77,9 +73,6 @@ Keep attention about ROS version
 
 -  Install the configuration file of your robot
 
-==============================================
-
-For running Mo
 You can find or built your own robot model by following the instuctions of the previous step in the section "Robot model and Robot state"
 
 For Pepper, you can use the pepper_moveit_config package available at
@@ -89,13 +82,9 @@ For Pepper, you can use the pepper_moveit_config package available at
 Follow all the instructions to play with Pepper and try movements
 
 
-2 Download ACT-R inner speech model
+Download ACT-R inner speech model
 ===================================
 
-Put the content of the INNER folder under the actr7.x folder (that you find inside ACT-R distribution).
-
-You can see the inner speech model by consulting the file inner_model.lisp
-It contains all the knowledge and the rules implementing the inner speech ability for robot.
 
 You can run the model without robot and you can see the inner dialogue in the prompt of ACT-R, or you can integrate that model on the robot by the steps described at point 3.
 
