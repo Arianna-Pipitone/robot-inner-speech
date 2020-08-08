@@ -2,10 +2,10 @@
 A framework to provide robots with inner speech skill. 
 It is based on ACT-R architecture, which is integrated to typical robot's routines, as ROS, text to speech, speech to text. 
 
-You can try the inner speech model by just running ACT-R, or by integrating it to real robot.
+Please, read the file "inner_model.lisp" for details about the code of the model.
+It contains all the knowledge and the rules implementing the inner speech ability for robot in the cooperative scenario to set a table.
 
-Please, read the file inner_model.lisp for details about the code of the model.
-It contains all the knowledge and the rules implementing the inner speech ability for robot.
+You can try the inner speech model by just running ACT-R, or by integrating it to real robot.
 
 Running inner speech model in ACT-R (without robot)
 =====================================================
@@ -23,13 +23,19 @@ Launch ACT-R in the common lisp shell, like this:
 
     (load "..your-path.../act-r/actr7.x/load-act-r.lisp")
  
-Run the Python code under INNER folder, like this (you have to write this lines in the Python shell):
+Run the Python code under INNER folder, like this (you have to write these lines in the Python interpreter shell):
 
-    import demo
-    demo.start_trial()
+    import inner
+    inner.start_trial()
  
-
 Now you can see the model working in your ACT-R console.
+
+You can give different command to the model, as
+    
+    give fork
+    put fork on the table
+
+and try different command combinations for testing the resulted inner dialogue.
 
 You can hear the inner speech dialogue by installing the SpeechRecognition Python library at
 
