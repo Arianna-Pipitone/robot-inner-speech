@@ -30,13 +30,6 @@ Run the Python code under INNER folder, like this (you have to write these lines
  
 Now you can see the model working in your ACT-R console.
 
-You can give different command to the model, as
-    
-    give fork
-    put fork on the table
-
-and try different command combinations for testing the resulted inner dialogue.
-
 You can hear the inner speech dialogue by installing the SpeechRecognition Python library at
 
  <https://pypi.org/project/SpeechRecognition/>
