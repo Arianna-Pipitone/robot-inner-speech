@@ -4,7 +4,7 @@ from tokenizer import tokenize, TOK
 
 #from naoqi import ALProxy
 
-actr.load_act_r_model("ACT-R:INNER;DemoiScience;inner_model_thread2.lisp")
+actr.load_act_r_model("ACT-R:INNER;DemoiScience;inner_model.lisp")
 
 global response, response_time
 response = ''
@@ -96,4 +96,4 @@ def AL_tts():
     tts.say("Hello my name is Pepper")
 
 #AL_tts()
-demo_table()
+#demo_table()
