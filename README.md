@@ -3,7 +3,8 @@ A framework to provide robots with inner speech skill.
 It is based on ACT-R architecture, which is integrated to typical robot's routines, as ROS, text to speech, speech to text. 
 
 Please, read the files in the INNER folder for details about the code of the model.
-It contains all the knowledge and the rules implementing the inner speech ability for robot in the cooperative scenario to set a table.
+It contains the knowledge and the rules implementing the inner speech ability for robot in the cooperative scenario to set a table. 
+You can add further declarative facts for extending knowledge.
 
 You can try the inner speech model by just running ACT-R, or by integrating it to real robot.
 
