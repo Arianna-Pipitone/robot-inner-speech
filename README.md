@@ -1,5 +1,7 @@
 # robot-inner-speech
-A framework to provide robots with inner speech skill. 
+The repository was built as integrative material of the paper entitled "What robots want? Hearing the inner voice of a robot" by Arianna Pipitone and Antonio Chella to the open access journal iScience from Cell Press.
+
+The framework provides robots with inner speech skill. 
 It is based on ACT-R architecture. 
 
 Please, read the files in the INNER folder for details about the code of the model.
