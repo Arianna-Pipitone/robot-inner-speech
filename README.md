@@ -95,7 +95,6 @@ Launch the middleware like this:
     
 and see your Pepper robot interacts to you while producing inner speech. 
 
-A video demonstration is available at
 
 
 
